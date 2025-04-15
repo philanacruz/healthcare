@@ -12,7 +12,7 @@ pool: testAgent
 steps:
 - task: Maven@4
   inputs:
-    mavenPomFile: '/pom.xml'
+    mavenPomFile: 'C:\Users\I11-37\Downloads\vsts-agent-win-x64-4.254.0\_work\1\s\pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.21'
