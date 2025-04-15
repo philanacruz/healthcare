@@ -12,7 +12,7 @@ pool: testAgent
 steps:
 - task: Maven@4
   inputs:
-    mavenPomFile: 'healthcare/pom.xml'
+    mavenPomFile: '/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.21'
